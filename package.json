@@ -33,7 +33,7 @@
     "mirror-creator": "^1.1.0",
     "mitragyna": "git+https://github.com/nicklandgrebe/mitragyna.git",
     "moment": "^2.20.1",
-    "moment-range": "^3.1.1",
+    "moment-range": "^4.0.2",
     "node-sass": "^4.11.0",
     "occasion-sdk": "git+https://github.com/GetOccasion/occasion-sdk-js.git",
     "poi-plugin-react": "git+https://github.com/nicklandgrebe/poi-plugin-react",
