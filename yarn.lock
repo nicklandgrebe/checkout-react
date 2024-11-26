@@ -3581,6 +3581,14 @@ enzyme-matchers@^4.2.0:
     circular-json-es6 "^2.0.1"
     deep-equal-ident "^1.1.1"
 
+enzyme-matchers@^6.1.2:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/enzyme-matchers/-/enzyme-matchers-6.1.2.tgz#cd70e45dbcff34d47406797998d55d06ceb822de"
+  integrity sha512-cP9p+HMOZ1ZXQ+k2H4dCkxmTZzIvpEy5zv0ZjgoBl6D0U43v+bJGH5IeWHdIovCzgJ0dVcMCKJ6lNu83lYUCAA==
+  dependencies:
+    circular-json-es6 "^2.0.1"
+    deep-equal-ident "^1.1.1"
+
 enzyme-to-json@^3.3.0, enzyme-to-json@^3.3.1:
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/enzyme-to-json/-/enzyme-to-json-3.3.4.tgz#67c6040e931182f183418af2eb9f4323258aa77f"
@@ -5598,6 +5606,13 @@ jest-docblock@^22.4.0, jest-docblock@^22.4.3:
   dependencies:
     detect-newline "^2.1.0"
 
+jest-environment-enzyme@^6.1.2:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/jest-environment-enzyme/-/jest-environment-enzyme-6.1.2.tgz#2612805a3cc0fa6934f9c3e62cf6255077d1b16b"
+  integrity sha512-WHeBKgBYOdryuOTEoK55lJwjg7Raery1OgXHLwukI3mSYgOkm2UrCDDT+vneqVgy7F8KuRHyStfD+TC/m2b7Kg==
+  dependencies:
+    jest-environment-jsdom "^22.4.1"
+
 jest-environment-jsdom@^22.4.1:
   version "22.4.3"
   resolved "https://registry.yarnpkg.com/jest-environment-jsdom/-/jest-environment-jsdom-22.4.3.tgz#d67daa4155e33516aecdd35afd82d4abf0fa8a1e"
@@ -5615,13 +5630,14 @@ jest-environment-node@^22.4.1:
     jest-mock "^22.4.3"
     jest-util "^22.4.3"
 
-jest-enzyme@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/jest-enzyme/-/jest-enzyme-4.2.0.tgz#d284506b6d87e072bf6d2786584970bb42ea5969"
-  integrity sha512-nna99NnU6sDbWqVX0153c81RUuxI/spTgw4Xobh049NcKihu0OAtAawbuSzZUnlCqdZOoXlKMudfjUPm0sCTsg==
+jest-enzyme@^6.1.2:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/jest-enzyme/-/jest-enzyme-6.1.2.tgz#89da43da19b4d8ddbfb49e153c2884f22954d330"
+  integrity sha512-+ds7r2ru3QkNJxelQ2tnC6d33pjUSsZHPD3v4TlnHlNMuGX3UKdxm5C46yZBvJICYBvIF+RFKBhLMM4evNM95Q==
   dependencies:
-    enzyme-matchers "^4.2.0"
+    enzyme-matchers "^6.1.2"
     enzyme-to-json "^3.3.0"
+    jest-environment-enzyme "^6.1.2"
 
 jest-get-type@^22.1.0, jest-get-type@^22.4.3:
   version "22.4.3"
