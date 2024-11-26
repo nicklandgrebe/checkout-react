@@ -45,7 +45,7 @@
     "react-html-parser": "^2.0.2",
     "react-load-script": "^0.0.6",
     "react-redux": "^5.0.6",
-    "reactstrap": "^5.0.0-beta",
+    "reactstrap": "^8.0.0",
     "redux": "^3.7.2",
     "redux-devtools-extension": "^2.13.2",
     "redux-thunk": "^2.2.0",
